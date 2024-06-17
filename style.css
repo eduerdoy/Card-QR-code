@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    font-family: out;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding:10px;
+    justify-content: space-between;
+}
+
+.qrcode{
+   width: 100%;
+   height: 50%;
+   background-image: url("../qr-code-component-main/images/image-qr-code.png");
+   background-position: center;
+   background-size: cover;
+   border-radius: 10px;
+}
+
+.texto{
+    margin-bottom:20px;
+    width: 100%;
+    height: 40%;
+    
+}
